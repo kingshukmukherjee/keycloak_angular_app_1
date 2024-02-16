@@ -10,7 +10,7 @@ function initializeKeycloak(keycloak: KeycloakService) {
   return () =>
     keycloak.init({
       config: {
-        url: 'https://52.169.2.6:8443',
+        url: '<keycloak server url>',
         realm: 'master',
         clientId: 'sample_keyclock_js',
       },
